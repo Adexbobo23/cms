@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="register-area pt-120 mb-120">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="form-wrapper">
+<div class="form-title">
+<h3>Register Account</h3>
+<span></span>
+</div>
+<div class="register-tab">
+
+<div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <form method="POST">
+        {% csrf_token %}
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-inner mb-25">
+              <label for="id_first_name">First Name*</label>
+              <div class="input-area">
+                <img src="{% static 'assets/images/icon/user-2.svg' %}" alt>
+                {{ form.first_name }}
+                <!-- Add error message -->
+                {{ form.first_name.errors }}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-inner mb-25">
+              <label for="id_last_name">Last Name*</label>
+              <div class="input-area">
+                <img src="{% static 'assets/images/icon/user-2.svg' %}" alt>
+                {{ form.last_name }}
+                <!-- Add error message -->
+                {{ form.last_name.errors }}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-inner mb-25">
+              <label for="id_username">User Name*</label>
+              <div class="input-area">
+                <img src="{% static 'assets/images/icon/user-2.svg' %}" alt>
+                {{ form.username }}
+                <!-- Add error message -->
+                {{ form.username.errors }}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-inner mb-25">
+              <label for="id_email">Email*</label>
+              <div class="input-area">
+                <img src="{% static 'assets/images/icon/email-2.svg' %}" alt>
+                {{ form.email }}
+                <!-- Add error message -->
+                {{ form.email.errors }}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-inner mb-25">
+              <label for="id_password1">Password*</label>
+              {{ form.password1 }}
+              <!-- Add error message -->
+              {{ form.password1.errors }}
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-inner">
+              <label for="id_password2">Confirm Password*</label>
+              {{ form.password2 }}
+              <!-- Add error message -->
+              {{ form.password2.errors }}
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-agreement form-inner d-flex justify-content-between flex-wrap">
+              <div class="form-group two">
+                {{ form.agreed_to_terms }}
+                <label for="id_agreed_to_terms">Here, I will agree company terms & conditions.</label>
+                <!-- Add error message -->
+                {{ form.agreed_to_terms.errors }}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-inner">
+              <button class="primry-btn-2" type="submit">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <h6>Already have an account? <a href="{% url 'login' %}"> Login</a> Here</h6>
+        <div class="login-difarent-way">
+            <div class="row g-4">
+            <div class="col-md-6">
+                <a href="https://myaccount.google.com/"><img src="{% static 'assets/images/icon/google1.svg' %}" alt>Log in with Google</a>
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.facebook.com/"><img src="{% static 'assets/images/icon/facebook1.svg' %}" alt>Log in with Facebook</a>
+            </div>
+            </div>
+        </div>
+      </form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+{% endblock %}

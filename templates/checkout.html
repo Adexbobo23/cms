@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo-egenslab.b-cdn.net/html/jobes/preview/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Nov 2023 14:44:23 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JOBES- Job Portal HTML Template</title>
+<link rel="icon" href="assets/images/sm-logo.svg" type="image/gif" sizes="20x20">
+
+<link rel="stylesheet" href="assets/css/all.css">
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/boxicons.min.css">
+<link rel="stylesheet" href="assets/css/summernote.min.css">
+
+<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+
+<link rel="stylesheet" href="assets/css/swiper-bundle.css">
+
+<link rel="stylesheet" href="assets/css/nice-select.css">
+<link rel="stylesheet" href="assets/css/select2.min.css">
+
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+
+<link rel="stylesheet" href="assets/css/datepicker.min.css">
+
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-wight">
+<div class="eg-preloder">
+</div>
+
+<header class="header-area style-3">
+    <div class="menu-area">
+    <div class="header-logo">
+    <a href="index.html"><img alt="image" class="img-fluid" src="assets/images/header1-logo.svg"></a>
+    </div>
+    <div class="main-menu">
+    <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
+    <div class="mobile-logo-wrap">
+    <a href="index.html"><img alt="image" src="assets/images/header1-logo.svg"></a>
+    </div>
+    <div class="menu-close-btn">
+    <i class="bi bi-x-lg"></i>
+    </div>
+    </div>
+    <ul class="menu-list">
+    <li class="menu-item-has-children active">
+    <a href="index.html" class="drop-down">Home</a>
+    </li>
+    <li class="menu-item-has-children">
+    <a href="#" class="drop-down">Find Jobs</a><i class="bi bi-plus dropdown-icon"></i>
+    <ul class="sub-menu">
+    <li><a href="category.html">Job Category</a></li>
+    <li><a href="job-listing2.html">Job Listing</a></li>
+    <li><a href="job-details.html">Job Details</a></li>
+    </ul>
+    </li>
+    <li class="menu-item-has-children">
+    <a href="#" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
+    <ul class="sub-menu">
+    <li><a href="dashboard.html">Candidate Dashboard</a></li>
+    <li><a href="job-post.html">Post A Jobs</a></li>
+    <li><a href="pricing-plan.html">Pricing Plan</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="checkout.html">Checkout</a></li>
+    <li><a href="error.html">Error</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="register.html">Register</a></li>
+    </ul>
+    </li>
+    <li class="menu-item-has-children">
+    <a href="#">Company</a><i class="bi bi-plus dropdown-icon"></i>
+    <ul class="sub-menu">
+    <li><a href="company-listing2.html">Company Listing</a></li>
+    <li><a href="company-details.html">Company Details</a></li>
+    <li><a href="company-dashboard.html">Company Dashboard</a></li>
+    </ul>
+    </li>
+    <li class="menu-item-has-children">
+    <a href="#">Blog</a><i class="bi bi-plus dropdown-icon"></i>
+    <ul class="sub-menu">
+    <li><a href="blog-grid.html">Blog Grid</a></li>
+    <li><a href="blog-standard.html">Blog Standard</a></li>
+    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+    <li><a href="blog-details.html">Blog Details</a></li>
+    </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="for-mobile-menu d-lg-none d-block">
+    <div class="sign-in-btn mb-25">
+    <a class="primry-btn-1 lg-btn" href="login.html">
+    <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.8033 2.19669C11.3868 0.780144 9.50329 0 7.5 0C5.49671 0 3.61324 0.780144 2.19669 2.19669C0.780144 3.61324 0 5.49671 0 7.5C0 9.50329 0.780144 11.3868 2.19669 12.8033C3.61324 14.2199 5.49671 15 7.5 15C9.50329 15 11.3868 14.2199 12.8033 12.8033C14.2199 11.3868 15 9.50329 15 7.5C15 5.49671 14.2199 3.61324 12.8033 2.19669ZM3.25504 12.5771C3.50269 10.4462 5.33478 8.80096 7.5 8.80096C8.64143 8.80096 9.71478 9.24568 10.5222 10.0529C11.2042 10.7351 11.6344 11.6258 11.7451 12.5769C10.5949 13.5402 9.11407 14.1211 7.5 14.1211C5.88593 14.1211 4.40517 13.5403 3.25504 12.5771ZM7.5 7.89574C6.24401 7.89574 5.22205 6.87378 5.22205 5.61779C5.22205 4.36169 6.24401 3.33984 7.5 3.33984C8.75599 3.33984 9.77795 4.36169 9.77795 5.61779C9.77795 6.87378 8.75599 7.89574 7.5 7.89574ZM12.5015 11.834C12.2776 10.9311 11.8105 10.0985 11.1436 9.43153C10.6034 8.89137 9.96437 8.48614 9.26743 8.23219C10.1052 7.66399 10.6569 6.70406 10.6569 5.61779C10.6569 3.87714 9.24065 2.46094 7.5 2.46094C5.75935 2.46094 4.34315 3.87714 4.34315 5.61779C4.34315 6.70464 4.89521 7.66491 5.73372 8.23299C5.09251 8.46668 4.49913 8.82797 3.98861 9.30359C3.24932 9.99207 2.73594 10.8699 2.4979 11.8333C1.48979 10.6712 0.878906 9.15562 0.878906 7.5C0.878906 3.84911 3.84911 0.878906 7.5 0.878906C11.1509 0.878906 14.1211 3.84911 14.1211 7.5C14.1211 9.15596 13.51 10.6718 12.5015 11.834Z" />
+    </svg>
+    Sign In</a>
+    </div>
+    <div class="post-job-btn mb-30">
+    <a class="primry-btn-2 lg-btn" href="#">
+    <svg width="15" height="13" viewBox="0 0 15 13" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.1367 0H4.86329C4.66914 0 4.51173 0.151188 4.51173 0.337662V1.79366H1.43168C0.642247 1.79363 0 2.41049 0 3.16868V11.6249C0 12.3831 0.642247 13 1.43168 13H13.5683C14.3578 13 15 12.3831 15 11.6249V3.16868C15 2.41049 14.3578 1.79363 13.5683 1.79363H10.4883V0.337662C10.4883 0.15116 10.3309 0 10.1367 0ZM5.21485 0.675325H9.78518V1.79366H5.21485V0.675325ZM13.5683 12.3247H1.43168C1.02996 12.3247 0.703126 12.0108 0.703126 11.625V5.31469L5.6836 7.11899V8.14608C5.6836 8.33255 5.84102 8.48374 6.03517 8.48374H8.96486C9.15901 8.48374 9.31642 8.33255 9.31642 8.14608V7.11899L14.2969 5.31472V11.625C14.2969 12.0108 13.9701 12.3247 13.5683 12.3247ZM6.38673 7.80841V6.79543H8.6133V7.80841H6.38673ZM14.2969 3.16868V4.59294L9.3108 6.39926C9.28191 6.24073 9.13821 6.1201 8.96486 6.1201H6.03517C5.86182 6.1201 5.71812 6.2407 5.68923 6.39926L0.703126 4.59297V3.16868C0.703126 2.78284 1.02993 2.46896 1.43168 2.46896H13.5683C13.9701 2.46896 14.2969 2.78284 14.2969 3.16868ZM13.4071 11.0443C13.4071 11.2308 13.2497 11.382 13.0555 11.382H10.1697C9.97558 11.382 9.81816 11.2308 9.81816 11.0443C9.81816 10.8578 9.97558 10.7067 10.1697 10.7067H13.0555C13.2497 10.7067 13.4071 10.8578 13.4071 11.0443ZM1.89337 3.67202C1.89337 3.48555 2.05079 3.33436 2.24494 3.33436H4.09064C4.28479 3.33436 4.44221 3.48555 4.44221 3.67202C4.44221 3.8585 4.28479 4.00968 4.09064 4.00968H2.24494C2.05079 4.00968 1.89337 3.8585 1.89337 3.67202Z" />
+    </svg>
+    Post Job
+    </a>
+    </div>
+    <div class="social-area">
+    <ul>
+    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+    <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="nav-right d-flex jsutify-content-end align-items-center">
+    <ul>
+    <li>
+    <div class="btn-group dropdown">
+    <div class="notifications-area dropdown-toggle" role="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="notifacation-icon">
+    <svg width="16" height="18" viewBox="0 0 16 18" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.37408 0.0465755C8.67279 0.120485 8.89683 0.247189 9.12442 0.472435C9.4907 0.834944 9.60093 1.15874 9.60093 1.89079V2.33777L9.87831 2.43983C11.5497 3.05223 12.8263 4.40723 13.3028 6.08603C13.47 6.66323 13.4806 6.81809 13.5126 8.47929C13.5446 10.2109 13.5624 10.4326 13.7651 11.2597C13.9856 12.1501 14.3874 13.0546 14.9102 13.836C15.1378 14.1773 15.344 14.4378 15.8739 15.0431C16.0872 15.2895 16.009 15.6872 15.7174 15.835C15.5823 15.9019 15.5147 15.9054 13.093 15.9054H10.6038L10.5824 16.0251C10.49 16.5143 10.0561 17.1478 9.56537 17.5068C9.34845 17.6652 8.95728 17.8517 8.67635 17.9327C8.38831 18.0136 7.68776 18.0242 7.39616 17.9502C6.50002 17.7285 5.7568 17.0528 5.48654 16.2187L5.38696 15.9054H2.90481C0.490226 15.9054 0.419104 15.9019 0.283973 15.835C0.191514 15.7893 0.116836 15.7154 0.0706072 15.6239C-0.0645256 15.3634 -0.0111828 15.1769 0.280416 14.8672C1.18722 13.9063 1.90911 12.5795 2.23627 11.2597C2.43896 10.4432 2.4603 10.2144 2.48875 8.47929C2.52075 6.81457 2.53142 6.66675 2.69856 6.08251C3.17152 4.41075 4.50861 2.99943 6.15864 2.42224L6.40045 2.33777V1.89079C6.40045 1.16226 6.51069 0.834944 6.88052 0.468916C7.27881 0.0712128 7.83711 -0.0871639 8.37408 0.0465755ZM7.75177 1.12354C7.5384 1.23265 7.46728 1.39806 7.46728 1.79929V2.1266H8.00069H8.53411V1.79225C8.53055 1.39806 8.47721 1.26432 8.26384 1.13762C8.09315 1.03555 7.93668 1.03204 7.75177 1.12354ZM7.3606 3.21764C6.84852 3.29507 6.53203 3.39362 6.06262 3.61887C4.80732 4.22774 3.95742 5.30822 3.64448 6.68435C3.59469 6.89903 3.57691 7.25098 3.55558 8.54968C3.53068 9.88708 3.51646 10.225 3.45601 10.6086C3.22842 12.0375 2.74834 13.2799 1.98023 14.4167C1.84154 14.6243 1.71708 14.8073 1.71352 14.8214C1.70641 14.839 4.53706 14.8496 8.00069 14.8496C11.4643 14.8496 14.295 14.839 14.2879 14.8214C14.2808 14.8073 14.1598 14.6243 14.0212 14.4167C13.2566 13.2834 12.7694 12.0234 12.5454 10.6121C12.4849 10.2285 12.4707 9.88357 12.4458 8.54968C12.4245 7.25098 12.4067 6.89903 12.3569 6.68435C12.1578 5.80447 11.7595 5.08297 11.1336 4.46354C10.7389 4.0764 10.3762 3.82299 9.8712 3.58367C9.09241 3.21764 8.20695 3.08742 7.3606 3.21764ZM6.50713 15.9265C6.50713 16.0145 6.76673 16.3982 6.91609 16.5319C7.5384 17.095 8.44876 17.1021 9.07108 16.5495C9.23821 16.3982 9.43024 16.1307 9.47647 15.9829L9.49781 15.9054H8.00425C7.17924 15.9054 6.50713 15.916 6.50713 15.9265Z" />
+    <path d="M13.5626 1.8943C13.6764 1.97173 14.1102 2.4363 14.3485 2.7425C15.2411 3.88986 15.8314 5.3786 15.963 6.82511C16.0199 7.43751 16.0127 7.64868 15.931 7.81057C15.8492 7.96895 15.6465 8.09213 15.4687 8.09213C15.1557 8.09213 14.9352 7.83169 14.9352 7.46214C14.9352 7.14891 14.8712 6.56819 14.7894 6.17401C14.5654 5.07593 13.9787 3.90393 13.2425 3.08389C12.7874 2.5806 12.766 2.54541 12.766 2.34128C12.766 2.14067 12.8407 1.99989 13.0007 1.8943C13.1394 1.8028 13.4239 1.80631 13.5626 1.8943Z" />
+    <path d="M3.00065 1.8943C3.16067 1.99989 3.23535 2.14067 3.23535 2.3448C3.23535 2.54541 3.22824 2.55597 2.74461 3.10149C2.01206 3.92505 1.43241 5.08648 1.21194 6.17401C1.13014 6.56819 1.06614 7.14891 1.06614 7.46214C1.06614 7.83169 0.845657 8.09213 0.532721 8.09213C0.354917 8.09213 0.152219 7.96895 0.0704293 7.81057C-0.0113609 7.6522 -0.0184731 7.43399 0.0348682 6.84271C0.173556 5.36452 0.781648 3.84058 1.6849 2.70731C1.96583 2.35536 2.3001 1.99285 2.42456 1.90486C2.57392 1.8028 2.85129 1.79928 3.00065 1.8943Z" />
+    </svg>
+    </div>
+    <span>5</span>
+    </div>
+    <div class="notifacion-card dropdown-menu" aria-labelledby="dropdownMenuButton2">
+    <h6 class="title">5 Notifications</h6>
+    <ul>
+    <li>
+    <div class="icon">
+    <img src="assets/images/bg/company-logo/notifacion-1.png" alt>
+    </div>
+    <div class="content">
+    <h6><a href="#">Your application has accepted in 5 vacancies.</a></h6>
+    <span><img src="assets/images/icon/clock-1.svg" alt> 10 min ago</span>
+    </div>
+    </li>
+    <li>
+    <div class="icon">
+    <img src="assets/images/bg/company-logo/notifacion-2.png" alt>
+    </div>
+    <div class="content">
+    <h6><a href="#">Your application has accepted in 5 vacancies.</a></h6>
+    <span><img src="assets/images/icon/clock-1.svg" alt> 10 min ago</span>
+    </div>
+    </li>
+    <li>
+    <div class="icon">
+    <img src="assets/images/bg/company-logo/notifacion-3.png" alt>
+    </div>
+    <div class="content">
+    <h6><a href="#">Your application has accepted in 5 vacancies.</a></h6>
+    <span><img src="assets/images/icon/clock-1.svg" alt> 10 min ago</span>
+    </div>
+    </li>
+    </ul>
+    <div class="view-all">
+    <a href="#">See All Notifications</a>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="d-md-flex d-none">
+    <div class="sign-in-btn">
+    <a class="primry-btn-1 lg-btn" href="login.html">
+    <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.8033 2.19669C11.3868 0.780144 9.50329 0 7.5 0C5.49671 0 3.61324 0.780144 2.19669 2.19669C0.780144 3.61324 0 5.49671 0 7.5C0 9.50329 0.780144 11.3868 2.19669 12.8033C3.61324 14.2199 5.49671 15 7.5 15C9.50329 15 11.3868 14.2199 12.8033 12.8033C14.2199 11.3868 15 9.50329 15 7.5C15 5.49671 14.2199 3.61324 12.8033 2.19669ZM3.25504 12.5771C3.50269 10.4462 5.33478 8.80096 7.5 8.80096C8.64143 8.80096 9.71478 9.24568 10.5222 10.0529C11.2042 10.7351 11.6344 11.6258 11.7451 12.5769C10.5949 13.5402 9.11407 14.1211 7.5 14.1211C5.88593 14.1211 4.40517 13.5403 3.25504 12.5771ZM7.5 7.89574C6.24401 7.89574 5.22205 6.87378 5.22205 5.61779C5.22205 4.36169 6.24401 3.33984 7.5 3.33984C8.75599 3.33984 9.77795 4.36169 9.77795 5.61779C9.77795 6.87378 8.75599 7.89574 7.5 7.89574ZM12.5015 11.834C12.2776 10.9311 11.8105 10.0985 11.1436 9.43153C10.6034 8.89137 9.96437 8.48614 9.26743 8.23219C10.1052 7.66399 10.6569 6.70406 10.6569 5.61779C10.6569 3.87714 9.24065 2.46094 7.5 2.46094C5.75935 2.46094 4.34315 3.87714 4.34315 5.61779C4.34315 6.70464 4.89521 7.66491 5.73372 8.23299C5.09251 8.46668 4.49913 8.82797 3.98861 9.30359C3.24932 9.99207 2.73594 10.8699 2.4979 11.8333C1.48979 10.6712 0.878906 9.15562 0.878906 7.5C0.878906 3.84911 3.84911 0.878906 7.5 0.878906C11.1509 0.878906 14.1211 3.84911 14.1211 7.5C14.1211 9.15596 13.51 10.6718 12.5015 11.834Z" />
+    </svg>
+    Sign In</a>
+    </div>
+    </li>
+    <li class="d-md-flex d-none">
+    <div class="post-job-btn">
+    <a class="primry-btn-2 lg-btn" href="job-post.html">Post Job
+    <svg width="15" height="13" viewBox="0 0 15 13" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.1367 0H4.86329C4.66914 0 4.51173 0.151188 4.51173 0.337662V1.79366H1.43168C0.642247 1.79363 0 2.41049 0 3.16868V11.6249C0 12.3831 0.642247 13 1.43168 13H13.5683C14.3578 13 15 12.3831 15 11.6249V3.16868C15 2.41049 14.3578 1.79363 13.5683 1.79363H10.4883V0.337662C10.4883 0.15116 10.3309 0 10.1367 0ZM5.21485 0.675325H9.78518V1.79366H5.21485V0.675325ZM13.5683 12.3247H1.43168C1.02996 12.3247 0.703126 12.0108 0.703126 11.625V5.31469L5.6836 7.11899V8.14608C5.6836 8.33255 5.84102 8.48374 6.03517 8.48374H8.96486C9.15901 8.48374 9.31642 8.33255 9.31642 8.14608V7.11899L14.2969 5.31472V11.625C14.2969 12.0108 13.9701 12.3247 13.5683 12.3247ZM6.38673 7.80841V6.79543H8.6133V7.80841H6.38673ZM14.2969 3.16868V4.59294L9.3108 6.39926C9.28191 6.24073 9.13821 6.1201 8.96486 6.1201H6.03517C5.86182 6.1201 5.71812 6.2407 5.68923 6.39926L0.703126 4.59297V3.16868C0.703126 2.78284 1.02993 2.46896 1.43168 2.46896H13.5683C13.9701 2.46896 14.2969 2.78284 14.2969 3.16868ZM13.4071 11.0443C13.4071 11.2308 13.2497 11.382 13.0555 11.382H10.1697C9.97558 11.382 9.81816 11.2308 9.81816 11.0443C9.81816 10.8578 9.97558 10.7067 10.1697 10.7067H13.0555C13.2497 10.7067 13.4071 10.8578 13.4071 11.0443ZM1.89337 3.67202C1.89337 3.48555 2.05079 3.33436 2.24494 3.33436H4.09064C4.28479 3.33436 4.44221 3.48555 4.44221 3.67202C4.44221 3.8585 4.28479 4.00968 4.09064 4.00968H2.24494C2.05079 4.00968 1.89337 3.8585 1.89337 3.67202Z" />
+    </svg>
+    </a>
+    </div>
+    </li>
+    </ul>
+    <div class="sidebar-button mobile-menu-btn ">
+    <i class="bi bi-list"></i>
+    </div>
+    </div>
+    </div>
+    </header>
+
+
+<div class="inner-banner">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="banner-content text-center">
+<h1>Checkout Page</h1>
+<span></span>
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+<li class="breadcrumb-item active" aria-current="page">Checkout Page</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="checkout-pages-area pt-120 mb-120">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="checkout-form form-wrapper">
+<form>
+<div class="title-and-coupon">
+<div class="title">
+<h5>Company Information:</h5>
+</div>
+<div class="coupon-area">
+<p>Do you have an coupon code? <a href="#">Click Here</a></p>
+</div>
+</div>
+<div class="row mb-20">
+<div class="col-md-6">
+<div class="form-inner mb-25">
+<label for="name">Full Name*</label>
+<div class="input-area">
+<img src="assets/images/icon/user-2.svg" alt>
+<input type="text" id="name" name="name" placeholder="Mr. Jackson Mile">
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-inner mb-25">
+<label for="companyname">Company Name*</label>
+<div class="input-area">
+<img src="assets/images/icon/company-2.svg" alt>
+<input type="text" id="companyname" name="name" placeholder="Elite Hangstroman">
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-inner mb-25">
+<label for="phonenumber">Phone*</label>
+<div class="input-area">
+<img src="assets/images/icon/phone-2.svg" alt>
+<input type="text" id="phonenumber" name="phonenumber" placeholder="+880-17 *** *** **">
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-inner mb-25">
+<label for="companyaddress">Company Address*</label>
+<div class="input-area">
+<img src="assets/images/icon/map-2.svg" alt>
+<input type="text" id="companyaddress" name="phonenumber" placeholder="Address Here">
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-inner mb-25">
+<label for="email3">Email*</label>
+<div class="input-area">
+<img src="assets/images/icon/email-2.svg" alt>
+<input type="text" id="email3" name="email" placeholder="info@example.com">
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-inner mb-25">
+<label for="country">Country*</label>
+<div class="input-area">
+<img src="assets/images/icon/map-2.svg" alt>
+<input type="text" id="country" name="country" placeholder="Bangladesh">
+</div>
+</div>
+</div>
+</div>
+<div class="service-title">
+<h5>Corporate Service: </h5>
+<span>(Select Your Previous Add-On)</span>
+</div>
+<div class="multi-select-area">
+<div class="single-select">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value id="flexCheckDefault" checked>
+<label class="form-check-label" for="flexCheckDefault">
+Featured Job
+</label>
+</div>
+</div>
+<div class="single-select">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value id="flexCheckDefault1" checked>
+<label class="form-check-label" for="flexCheckDefault1">
+Hotest Job
+</label>
+</div>
+</div>
+<div class="single-select">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value id="flexCheckDefault2">
+<label class="form-check-label" for="flexCheckDefault2">
+Featured Job
+</label>
+</div>
+</div>
+<div class="single-select">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value id="flexCheckDefault3">
+<label class="form-check-label" for="flexCheckDefault3">
+Highlighted Job
+</label>
+</div>
+</div>
+<div class="single-select">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value id="flexCheckDefault4">
+<label class="form-check-label" for="flexCheckDefault4">
+Trending Job
+</label>
+</div>
+</div>
+<div class="single-select">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value id="flexCheckDefault5">
+<label class="form-check-label" for="flexCheckDefault5">
+Featured Job
+</label>
+</div>
+</div>
+</div>
+<div class="row g-4 mb-60">
+<div class="col-lg-6">
+<div class="total-payment-area">
+<div class="payment-title">
+<h5>Total Payment</h5>
+</div>
+<div class="payment-value">
+<h3>$30/ <span>Only</span></h3>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="payment-mathord">
+<div class="payment-title">
+<h5>Payment Granted :</h5>
+</div>
+<ul>
+<li><img src="assets/images/bg/payment-method-01.png" alt></li>
+<li><img src="assets/images/bg/payment-method-02.png" alt></li>
+<li><img src="assets/images/bg/payment-method-03.png" alt></li>
+<li><img src="assets/images/bg/payment-method-04.png" alt></li>
+<li><img src="assets/images/bg/payment-method-05.png" alt></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="payment-and-support">
+<div class="payment-btn">
+<button class="primry-btn-2 w-unset" type="submit">Pay Now Securely</button>
+</div>
+<div class="support-area">
+<div class="icon">
+<svg width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8">
+<path d="M21.1187 22.6455L20.1456 19.7326C19.9788 19.2334 19.6805 18.7881 19.282 18.4434C18.8835 18.0986 18.3994 17.8671 17.8805 17.773L15.0714 17.263V17.0458C15.5602 16.7627 15.9856 16.384 16.3244 15.9357H17.173C17.8683 15.9357 18.434 15.3713 18.434 14.6777V9.64532C18.434 6.63934 15.9827 4.19362 12.9697 4.19362C9.9568 4.19362 7.50543 6.63934 7.50543 9.64532V12.5809C7.50543 13.3894 8.08171 14.0658 8.84587 14.2235C9.08167 15.4287 9.83659 16.4486 10.8681 17.0458V17.263L8.05859 17.773C7.53968 17.8671 7.05568 18.0986 6.65724 18.4434C6.25881 18.7882 5.9606 19.2335 5.79384 19.7326L5.62571 20.2363L4.19406 18.808C4.03013 18.6444 4.03013 18.3781 4.19406 18.2146L5.85437 16.5585L2.73804 13.4494L0.861679 15.3214C0.306001 15.8758 0 16.613 0 17.3972C0 18.1814 0.306001 18.9182 0.861679 19.4726L6.54245 25.1403C7.09813 25.6947 7.83707 26.0004 8.62309 26.0004C9.40911 26.0004 10.1476 25.6947 10.6903 25.1529L12.7377 23.2813L12.0992 22.6455H21.1187ZM17.5934 14.6777C17.5934 14.9091 17.4046 15.097 17.173 15.097H16.8195C16.9428 14.8168 17.0347 14.5238 17.0936 14.2235C17.2735 14.1862 17.4391 14.1149 17.5934 14.0251V14.6777ZM17.173 13.303V11.8587C17.4231 12.0042 17.5934 12.2718 17.5934 12.5809C17.5934 12.8899 17.4231 13.1575 17.173 13.303ZM8.76642 13.303C8.51633 13.1575 8.34609 12.8899 8.34609 12.5809C8.34609 12.2718 8.51633 12.0042 8.76642 11.8587V13.303ZM8.76642 10.484V10.963C8.61902 11.0014 8.47759 11.0598 8.34609 11.1366V9.64532C8.34609 7.10189 10.4204 5.03234 12.9697 5.03234C15.519 5.03234 17.5934 7.10189 17.5934 9.64532V11.1366C17.462 11.0596 17.3205 11.0012 17.173 10.963V10.484H16.7527C15.5098 10.484 14.3413 10.0009 13.4619 9.12405L12.9697 8.63298L12.4775 9.12405C11.5982 10.0009 10.4297 10.484 9.18676 10.484H8.76642ZM9.60709 13.4196V11.3068C10.8693 11.2121 12.0463 10.6925 12.9697 9.81642C13.8932 10.6925 15.0701 11.2125 16.3324 11.3068V13.4196C16.3324 14.031 16.1651 14.603 15.8776 15.097H12.9697V15.9357H15.1866C14.5939 16.4562 13.8192 16.7745 12.9697 16.7745C11.1157 16.7745 9.60709 15.2694 9.60709 13.4196ZM14.2307 17.4199V17.4396L12.9697 18.6977L11.7087 17.4396V17.4199C12.1072 17.5448 12.5305 17.6132 12.9697 17.6132C13.409 17.6132 13.8323 17.5448 14.2307 17.4199ZM6.59079 19.9977C6.70995 19.6411 6.92298 19.3229 7.2076 19.0766C7.49222 18.8303 7.83795 18.6648 8.20864 18.5974L11.1468 18.0648L12.9697 19.8836L14.7923 18.0653L17.73 18.5979C18.1007 18.6651 18.4465 18.8306 18.7311 19.0769C19.0157 19.3233 19.2287 19.6414 19.3478 19.9981L19.9527 21.8068H11.2586L9.62138 20.1734L7.80219 21.8152C7.64372 21.9741 7.36672 21.9741 7.20784 21.8152L6.28983 20.8993L6.59079 19.9977ZM2.73762 14.6353L4.66525 16.5585L4.20877 17.0139L2.28114 15.0907L2.73762 14.6353ZM10.1081 24.5482C9.71133 24.9432 9.18339 25.1617 8.62225 25.1617C8.06111 25.1617 7.53317 24.9432 7.13596 24.5473L1.45519 18.8801C1.05839 18.4842 0.839821 17.9575 0.839821 17.3976C0.839821 16.8374 1.05839 16.3107 1.45519 15.9148L1.68637 15.6841L3.61401 17.6073L3.59887 17.6224C3.10751 18.1131 3.10751 18.9111 3.59887 19.4018L6.61307 22.409C6.8514 22.6464 7.16791 22.7776 7.50501 22.7776C7.84212 22.7776 8.15863 22.6468 8.3814 22.4237L8.41293 22.3956L10.3494 24.3276L10.1081 24.5482ZM10.9698 23.7598L9.03754 21.832L9.5928 21.3313L11.5217 23.2557L10.9698 23.7598ZM24.739 0H18.8544C18.1591 0 17.5934 0.564461 17.5934 1.25809V4.61298C17.5934 5.3066 18.1591 5.87106 18.8544 5.87106H19.9771L19.5425 8.40024L23.5986 5.87106H24.739C25.4342 5.87106 26 5.3066 26 4.61298V1.25809C26 0.564461 25.4342 0 24.739 0ZM25.1593 4.61298C25.1593 4.84405 24.9706 5.03234 24.739 5.03234H23.3574L20.6879 6.69679L20.9741 5.03234H18.8544C18.6228 5.03234 18.434 4.84405 18.434 4.61298V1.25809C18.434 1.02702 18.6228 0.838724 18.8544 0.838724H24.739C24.9706 0.838724 25.1593 1.02702 25.1593 1.25809V4.61298Z" />
+<path d="M19.2751 1.67743H24.3191V2.51616H19.2751V1.67743ZM19.2751 3.35488H22.6378V4.1936H19.2751V3.35488ZM23.4784 3.35488H24.3191V4.1936H23.4784V3.35488ZM12.9702 1.25807C7.47811 1.25807 2.74728 5.04826 1.5174 10.3352L0.720868 9.01039L0 9.44192L1.47746 11.8981L3.93934 10.4241L3.50682 9.70486L2.36773 10.3867C3.55894 5.55024 7.9182 2.0968 12.9702 2.0968C14.0744 2.0968 15.1639 2.26035 16.2084 2.58325L16.4572 1.78227C15.332 1.4342 14.1589 1.25807 12.9702 1.25807ZM25.7961 9.28549L23.3343 7.81144L21.8572 10.2681L22.5781 10.6996L23.3137 9.4763C23.7008 10.6065 23.8988 11.7887 23.8988 13.0002C23.8988 15.4941 23.0329 17.9323 21.4613 19.8652L22.114 20.3935C23.8071 18.3118 24.7394 15.6858 24.7394 13.0002C24.7394 11.7174 24.5322 10.4647 24.1283 9.26536L25.3636 10.0047L25.7961 9.28549Z" />
+</g>
+</svg>
+</div>
+<div class="content">
+<span>Support Line</span>
+<h5><a href="tel:+099-03573983465">+099-035 7398 3465</a></h5>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<footer class="footer1">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-3 col-md-4 col-sm-6 mb--50 d-flex justify-content-sm-start justify-content-center">
+<div class="footer-widget">
+<div class="widget-title">
+<h5>About Company</h5>
+</div>
+<div class="menu-container">
+<ul>
+<li><a href="contact.html">Contact Us <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="#">Terms & Condition <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="#">Privacy & Policy <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="#">Candidate Listing <i class="bx bx-up-arrow-alt"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 mb--50 d-flex justify-content-md-center justify-content-sm-end justify-content-center">
+<div class="footer-widget">
+<div class="widget-title">
+<h5>For Candidate’s</h5>
+</div>
+<div class="menu-container">
+<ul>
+<li><a href="edit-profile.html">Create Resume <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="category.html">Browse Categories <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="bookmark.html">Save Jobs List <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="job-listing1.html">Browse Jobs <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="dashboard.html">Candidate Dashboard <i class="bx bx-up-arrow-alt"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 mb--50 d-flex justify-content-lg-center justify-content-md-end justify-content-sm-start justify-content-center">
+<div class="footer-widget">
+<div class="widget-title">
+<h5>For Employer’s</h5>
+</div>
+<div class="menu-container">
+<ul>
+<li><a href="job-post.html">Post A Job <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="#">Browse Candidates <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="pricing-plan.html">Job Packages <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="job-listing1.html">Jobs Featured <i class="bx bx-up-arrow-alt"></i></a></li>
+<li><a href="company-dashboard.html">Employer Dashboard <i class="bx bx-up-arrow-alt"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-end justify-content-md-center justify-content-sm-end justify-content-center">
+<div class="footer-widget four">
+<div class="widget-title">
+<h5>Download App</h5>
+</div>
+<div class="app-list">
+<ul>
+<li>
+<a href="#"><img src="assets/images/icon/apple-app.svg" alt></a>
+</li>
+<li>
+<a href="#"><img src="assets/images/icon/google-play.svg" alt></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-btm">
+<div class="footer-logo">
+<img src="assets/images/footer-logo.svg" alt>
+</div>
+<div class="row align-items-center">
+<div class="col-lg-6 d-flex justify-content-lg-start justify-content-center">
+<div class="support">
+<div class="icon">
+<img src="assets/images/icon/footer-support-icon.svg" alt>
+</div>
+<div class="content">
+<h5>Support Line:</h5>
+<a href="tel:+099-03573983465">+099-035 7398 3465</a>
+</div>
+</div>
+</div>
+<div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+<div class="footer-btm-menu">
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms of Services</a></li>
+<li><a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3634979,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866">Our Sitemap</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row border-top align-items-center">
+<div class="col-lg-6 d-flex  justify-content-lg-start justify-content-center">
+<div class="copyright-area">
+<p>©Copyright 2023 <a href="#">JOBES</a> | Design By <a href="https://www.egenslab.com/">Egenslab</a></p>
+</div>
+</div>
+<div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+<div class="social-area">
+<h6>Follow JOBES:</h6>
+<ul>
+<li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+<li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/summernote.min.js"></script>
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/counterup.js"></script>
+<script src="assets/js/select2.min.js"></script>
+<script src="assets/js/viewport.jquery.js"></script>
+<script src="assets/js/jquery.nice-number.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+<!-- Mirrored from demo-egenslab.b-cdn.net/html/jobes/preview/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Nov 2023 14:44:24 GMT -->
+</html>
